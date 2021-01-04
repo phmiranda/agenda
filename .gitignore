@@ -8,5 +8,8 @@ target/
 out/
 
 # comentário.
+src/main/resources/application.properties
+
+# comentário.
 *.iml
 *.log
