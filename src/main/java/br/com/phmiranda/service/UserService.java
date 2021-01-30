@@ -7,6 +7,8 @@
 
 package br.com.phmiranda.service;
 
+import br.com.phmiranda.domain.User;
+
 public class UserService {
     public void atualizaStatusUsuario() {
 

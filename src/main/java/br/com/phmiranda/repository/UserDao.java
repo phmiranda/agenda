@@ -7,6 +7,8 @@
 
 package br.com.phmiranda.repository;
 
+import br.com.phmiranda.database.PersistenceRepository;
+
 public class UserDao implements PersistenceRepository {
-    // comment
+
 }

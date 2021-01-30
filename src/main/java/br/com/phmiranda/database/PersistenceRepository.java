@@ -5,7 +5,7 @@
  * Date: 16/12/2020
  */
 
-package br.com.phmiranda.repository;
+package br.com.phmiranda.database;
 
 public interface PersistenceRepository {
 

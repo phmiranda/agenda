@@ -7,6 +7,8 @@
 
 package br.com.phmiranda.controller;
 
+import br.com.phmiranda.service.UserService;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.POST;
@@ -28,17 +30,14 @@ public class UserController {
 
     @POST
     public void store() {
-
+        UserService userService = new UserService();
+        userService.atualizaStatusUsuario();
     }
 
     @PUT
     public void update() {
-
-    }
-
-    @PATCH
-    public void updateParam() {
-
+        UserService userService = new UserService();
+        userService.atualizaStatusUsuario();
     }
 
     @DELETE
