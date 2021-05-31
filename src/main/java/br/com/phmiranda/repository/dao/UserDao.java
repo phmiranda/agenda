@@ -5,10 +5,10 @@
  * Date: 16/12/2020
  */
 
-package br.com.phmiranda.repository;
+package br.com.phmiranda.repository.dao;
 
-import br.com.phmiranda.database.PersistenceRepository;
+import br.com.phmiranda.repository.UserRepository;
 
-public class UserDao implements PersistenceRepository {
+public class UserDao implements UserRepository {
 
 }

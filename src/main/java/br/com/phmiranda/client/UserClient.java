@@ -7,7 +7,7 @@
 
 package br.com.phmiranda.client;
 
-public class EnderecoClient {
+public class UserClient {
 
     public void index() {
 

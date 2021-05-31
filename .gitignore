@@ -9,6 +9,7 @@ out/
 
 # comentário.
 src/main/resources/application.properties
+src/main/resources/bootstrap.properties
 
 # comentário.
 *.iml
